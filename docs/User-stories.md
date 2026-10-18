@@ -9,5 +9,6 @@
     - I cannot submit until I fill in brand, model, year, price and mileage.
     - I can upload 1 to 8 photos, each up to 5 MB.
 3. As a administrator, I want to remove fake or duplicate listings, so that buyers can trust the app. (FR3)
+    Acceptance criteria:
     - A listing I remove disappears from the car list immediately.
     - The seller sees the reason why the listing was removed.
