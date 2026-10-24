@@ -1,14 +1,16 @@
 # User Stories
 
-1. As a buyer, I want to filter the car list by brand, price and year, so that I can find a car that fits my budget quickly. (FR1)
-    Acceptance criteria:
-    - Choosing a brand shows only cars of the brand.
-    - Setting a minimum and maximum price hides every car outside that range.
-2. As a seller, I want to post my car with photos and details, so that buyers can see it and contact me. (FR2)
-    Acceptance criteria:
-    - I cannot submit until I fill in brand, model, year, price and mileage.
-    - I can upload 1 to 8 photos, each up to 5 MB.
-3. As a administrator, I want to remove fake or duplicate listings, so that buyers can trust the app. (FR3)
-    Acceptance criteria:
-    - A listing I remove disappears from the car list immediately.
-    - The seller sees the reason why the listing was removed.
+1. As a user, I want to upload an image of a Quranic verse, so that I can check if the text in the image is authentic. (FR1, FR5)
+    Acceptance Criteria:
+      - System accepts JPEG/PNG files up to 5MB.
+      - Displays clear error message if invalid file format is uploaded.
+     
+2. As a researcher, I want the system to highlight missing or incorrect Arabic diacritics, so that I can see exact differences between the image and the reference text. (FR3, FR4,FR5)
+    Acceptance Criteria:
+      - Extracted text is displayed side-by-side with verified reference text.
+      - Mismatched diacritics are visually highlighted.
+
+3. As a student, I want to receive an immediate similarity percentage score, so that I know the confidence level of the match without manual checking. (FR4, FR5)
+    Acceptance Criteria:
+      - Match score is displayed clearly as a percentage like 95% Match.
+      - System identifies and outputs the matching Ayah number.
