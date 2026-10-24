@@ -9,5 +9,5 @@
 
 ## Non-functional requirements (how the system must PERFORM)
 1. The system shall complete the OCR extraction and authentication process within 10 seconds for image file sizes up to 5 MB.
-2. The OCR text extraction module shall achieve an Arabic character recognition accuracy of at least 85% on standard, clear digital images.
-3. The web interface shall allow a user to complete an image upload and view results in no more than 3 user clicks.
+2. The system shall achieve an Arabic character recognition accuracy of at least 85% on standard, clear digital images.
+3. The system shall allow a user to complete an image upload and view results in no more than 3 user clicks.
